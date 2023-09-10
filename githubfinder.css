@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+   
+    background-color: yellow;
+  }
+  
+  header {
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 13px black;
+  }
+  
+  form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  form input {
+   
+    width: 100ch;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    background-color: black;
+    
+  }
+  
+  form button {
+  
+  
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.819);
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  form button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: black;
+    color: rgb(229, 216, 216);
+   
+  }
+  
+  #cardContainer {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #cardContainer div {
+    /* border-bottom: 2px solid red;
+      border-right: 2px solid red; */
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border-radius: 10px;
+    background-color: black;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    /* color: red; */
+    padding: 0.8rem 1rem;
+    color:yellowgreen;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  h2 {
+    margin-top: 1rem;
+  }
